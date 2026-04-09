@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+	<link rel = "stylesheet"  href = "style.css">
+</head>
+
+<body>
+	<form action = "form_msg.html">
+		<h2>Registration Form</h2>
+
+		<section>
+		<label for="firstname">First Name: </label>
+		<input type = "text" id = "firstname" required>
+		<br><br>
+
+		<label for="middlename">Middle Name: </label>
+		<input type = "text" id = "middlename" required>
+		<br><br>
+
+		<label for="lastname">Last Name: </label>
+		<input type = "text" id = "lastname" required>
+		<br><br>
+
+		<label for=dob">Date of Birth</label>
+		<input type = "date" id = "dob" required>
+		<br><br>
+
+		<label for="mob">Mobile Number </label>	
+		<input type = "tel" id = "mob" pattern = "[0-9]{10}" required>
+		<br><br>
+
+		<label for="address">Enter your current address:</label>
+		<input type = "text" id = "address" required>
+		<br><br>
+
+
+		<label for="clgName">Choose your college</label>
+		<select id = "clgName" reqquired>
+			<option value = "">Please choose college from below</option>
+			<option value = "dypcet">DYPCET</option>
+			<option value = "wce">WCE</option>
+			<option value = "coep">COEP</option>
+			<option value = "vjti">VJTI</option>
+			<option value = "kit">KIT</option>
+			<option value = "pict">PICT</option>
+		</select>	
+		<br><br>
+
+		<label for="branchName">Choose your branch</label>
+		<select id = "branchName" reqquired>
+			<option value = "">Please choose branch from below</option>
+			<option value = "cse">CSE</option>
+			<option value = "aiml">AI-ML</option>
+			<option value = "ds">DS</option>
+			<option value = "aids">AI-DS</option>
+			<option value = "etc">ENTC</option>
+			<option value = "che">Chemical</option>
+		</select>	
+		<br><br>
+
+		<label>Technical Skills: </label>
+		<br>
+		<label><input type = "checkbox">Python</label><br>
+		<label><input type = "checkbox">DSA</label><br>
+		<label><input type = "checkbox">Full-Stack</label><br>
+		<label><input type = "checkbox">AI-ML</label><br>
+		<label><input type = "checkbox">Data Analytics</label><br>
+		<br><br>
+
+		<label>Gender </label> <br>
+		<label><input type = "radio">Male</labbel>
+		<label><input type = "radio">Female</labbel>
+		<br><br>
+	
+		<button style = "margin-top:15px; margin-bottom: 20px;">Submit</button>
+		</section>
+	</form>
+</body>
+</html>

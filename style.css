@@ -1,0 +1,40 @@
+body{
+	border: solid 1px;
+	margin-right: 200px; 
+	margin-left: 100px; 
+	margin-top: 100px;
+	border-width: 0px;
+	
+}
+
+form{
+	background-image: linear-gradient(to top, #BAF7C8, #5C93DB);
+	padding-left: 35px;
+	border-radius: 15px;
+}
+
+h2{
+	color: #fff;
+	font-size: 25px;
+	text-align: center;
+	margin: 0px;
+	padding-top: 15px;
+	margin-bottom: 25px;
+	font-weight: bold;
+}
+
+label{
+	color: navy;
+	font-size: 15px
+}
+
+button{
+	background-image: linear-gradient(to right, #15EEFF, #8255ff);
+	border-radius: 10px;
+	font-size: 15px;
+	color: #fff;
+	border-width: 0px;
+	width: 90px;
+	height: 30px;
+	text-align: center;
+}
