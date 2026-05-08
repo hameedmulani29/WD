@@ -1,0 +1,67 @@
+ /*
+ books {
+    color: white;
+    background-color: pink;
+    width: 100%;
+}
+
+heading {
+    color: green;
+    font-size: 40px;
+    background-color: powderblue;
+}
+
+heading, title, author, publisher, edition {
+    display: inline;
+    
+}
+
+title {
+    
+    font-size: 25px;
+    font-weight: bold;
+} 
+*/
+
+/* Updated CSS code with display properties and additional styling */
+
+books {
+    display: block;
+    color: black;
+    background-color: pink;
+    width: 100%;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+}
+
+heading {
+    display: block;
+    color: green;
+    font-size: 40px;
+    background-color: powderblue;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+book {
+    display: block;
+    background-color: white;
+    margin: 15px;
+    padding: 15px;
+    border: 2px solid black;
+}
+
+title {
+    display: block;
+    font-size: 25px;
+    font-weight: bold;
+    color: darkblue;
+    margin-bottom: 5px;
+}
+
+author, publisher, edition, price {
+    display: block;
+    font-size: 18px;
+    margin-left: 10px;
+}
